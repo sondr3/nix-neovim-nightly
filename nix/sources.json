@@ -5,11 +5,11 @@
         "homepage": "https://neovim.io",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "0785f8e8b11b2fa290cfbc0604d570f49b954ba6",
-        "sha256": "0pj7r14b056r8jwc5571qd8xk1aq2sx1ydc70jdgldcc92ixkgrq",
+        "rev": "75c2c4e1b4c4fdd907c6858812552b8e85a207fe",
+        "sha256": "09a3smbf3d386s3jzi8hp4brykmw42z99nra81izfjccgfc6hdp2",
         "type": "tarball",
-        "url": "https://github.com/neovim/neovim/archive/0785f8e8b11b2fa290cfbc0604d570f49b954ba6.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+        "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/releases/download/nightly/nvim-linux64.tar.gz"
     },
     "niv": {
         "branch": "master",
@@ -17,22 +17,22 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "5e9671a9a87c240b1c6ce981d04ad23ba4291451",
-        "sha256": "08j7msxkv452pyxnh0sgn6h9930i5mk9mszba49bj5401gzmfb8a",
+        "rev": "61b61d1e5f8096fe65fb825bec23f33e861c51d0",
+        "sha256": "1dwfkd942wisccpsv0kf47abl0n17d9v4zasv4bm8lvy1dhv82ia",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/5e9671a9a87c240b1c6ce981d04ad23ba4291451.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/61b61d1e5f8096fe65fb825bec23f33e861c51d0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
-        "branch": "feature/nightly-neovim",
+        "branch": "master",
         "description": "Nix Packages collection",
         "homepage": null,
-        "owner": "rvolosatovs",
+        "owner": "nixOS",
         "repo": "nixpkgs",
-        "rev": "cc7106d6cbf11f291df6d6db7cd162985d450d1a",
-        "sha256": "1jsmb1x52vpl7gn4c8f3xwgfjgwikdbvgp50zr66rlbvwfrarfrv",
+        "rev": "c82e1c666faa59e1a081d5786e5f92da2230995f",
+        "sha256": "15xzp3b0xq1yk1ys4mzz11fambi74csznwdxgssl7ndcalm28ky7",
         "type": "tarball",
-        "url": "https://github.com/rvolosatovs/nixpkgs/archive/cc7106d6cbf11f291df6d6db7cd162985d450d1a.tar.gz",
+        "url": "https://github.com/nixOS/nixpkgs/archive/c82e1c666faa59e1a081d5786e5f92da2230995f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
